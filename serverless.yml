@@ -1,0 +1,20 @@
+service: google-aws-scraper
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  versionFunctions: true
+
+package:
+ include:
+   - scraper.js
+   - node_modules/**
+ exclude:
+   - ./**
+
+functions:
+  google-aws-scraper:
+    memorySize: 1200
+    timeout: 300
+    handler: scraper.handler
+    description: Uses headless chrome to search for a keyword on google and returns the links.

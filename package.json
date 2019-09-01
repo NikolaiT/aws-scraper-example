@@ -1,0 +1,17 @@
+{
+  "name": "aws-scraper-example",
+  "version": "1.0.0",
+  "description": "Uses headless chrome to search for a keyword on google and returns the links.",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikolai Tschacher",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.521.0",
+    "chrome-aws-lambda": "^1.19.0",
+    "puppeteer-core": "^1.19.0",
+    "user-agents": "^1.0.366"
+  }
+}
