@@ -9,7 +9,7 @@
   "author": "Nikolai Tschacher",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.521.0",
+    "aws-sdk": "^2.814.0",
     "chrome-aws-lambda": "^1.19.0",
     "puppeteer-core": "^1.19.0",
     "user-agents": "^1.0.366"
